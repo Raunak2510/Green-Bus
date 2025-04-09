@@ -1,0 +1,12 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+# Add these to your .gitignore too
+*.pem
+*.key
+*.cert
+*.log
+/node_modules
+/dist
+.DS_Store
