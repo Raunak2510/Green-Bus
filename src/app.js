@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 require('./config/db');
 
 // API Routes
-//app.use('/api', require('./api/routes'));
+app.use('/api', require('./api/admin/admin.router'));
 
 // 404 Handler
 app.use((req, res, next) => {
